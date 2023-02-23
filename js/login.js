@@ -1,8 +1,16 @@
 const input = document.querySelector('.login_input');
 const button = document.querySelector('.login_button');
 const form = document.querySelector('.login-form');
+const button_effect = document.querySelectorAll("button");
+const audio = new Audio("/media/portal.wav");
+button_effect.forEach(b => {
+    b.addEventListener("click", () => {
+        audio.play();
+    });
+});
 
-const validacaoInput = ({ target }) => {
+
+const validateInput = ({ target }) => {
     if (target.value.length > 2) {
         button.removeAttribute('disabled');
     } else {
@@ -10,12 +18,15 @@ const validacaoInput = ({ target }) => {
     }
 }
 
-const manipularEnvio = (event) => {
+const sendHandle = (event) => {
     event.preventDefault();
 
     localStorage.setItem('player', input.value);
-    window.location = 'pages/game.html';
+    setTimeout(() => {
+        window.location = 'pages/game.html';
+    }, 1500);
+
 }
 
-input.addEventListener('input', validacaoInput);
-form.addEventListener('submit', manipularEnvio);
+input.addEventListener('input', validateInput);
+form.addEventListener('submit', sendHandle);

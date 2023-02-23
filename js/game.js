@@ -36,7 +36,7 @@ const checkEndGame = () => {
 
     if (disabledCards.length === 30) {
         clearInterval(this.loop);
-        alert(`Congratulations, ${spanPlayer.innerHTML}! You completed the quest, your time was: ${timer.innerHTML}seconds`);
+        alert(`Congratulations, ${spanPlayer.innerHTML}! You completed the quest, your time was: ${timer.innerHTML} seconds.`);
     }
 }
 

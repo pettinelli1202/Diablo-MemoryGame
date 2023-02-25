@@ -10,7 +10,8 @@
 ➤ 
 # Implantação
 
-## Front-end netlify
+## Front-end
+➤ netlify
 
 
 # Desenvolvedor

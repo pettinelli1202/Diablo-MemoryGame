@@ -4,14 +4,12 @@
 ![Desktop](https://namethis.png)
 
 # Tecnologias aplicadas
-## Back-end
-➤ 
 ## Front-end 
-➤ 
-# Implantação
+➤ Html, Css e Javascript
 
+# Implantação
 ## Front-end
-➤ netlify
+➤ Netlify
 
 
 # Desenvolvedor

@@ -8,9 +8,9 @@
 ➤ 
 ## Front-end 
 ➤ 
-#Implantação
+# Implantação
 
-##Front-end netlify
+## Front-end netlify
 
 
 # Desenvolvedor

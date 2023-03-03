@@ -1,5 +1,5 @@
 # Sobre a aplicação
-Diablo é uma série de videogames de masmorras de RPG de ação desenvolvida pela Blizzard Entertainment. Nesta aplicação web, desenvolvemos um clássico jogo da memória de Diablo, o jogo é formado por peças que apresentam os personagens da franquia na parte posterior. 
+Diablo é uma série de videogames de masmorras de RPG de ação desenvolvida pela Blizzard Entertainment. Nesta aplicação web, desenvolvo um clássico jogo da memória de Diablo 2, o jogo é formado por peças que apresentam os personagens da franquia na parte posterior, portando na parte superior um time e login do player.
 # Layout
 
 ## Desktop
